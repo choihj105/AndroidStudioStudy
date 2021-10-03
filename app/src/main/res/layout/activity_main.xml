@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f7e8"
+    >
+
+    <EditText
+        android:id="@+id/edit1"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:hint="@string/input_number1"
+        />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:inputType="number"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:hint="Input number2"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#61BFAD"
+        android:textColor="#F9F7E8"
+        android:text="더하기" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#61BFAD"
+        android:backgroundTintMode="add"
+        android:text="빼기"
+        android:textColor="#F9F7E8" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#61BFAD"
+        android:textColor="#F9F7E8"
+        android:text="곱하기" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#61BFAD"
+        android:textColor="#F9F7E8"
+        android:text="나누기" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#61BFAD"
+        android:textColor="#F9F7E8"
+        android:text="나머지값" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+
+        android:text="결과: "
+        android:textColor="#61BFAD"
+        android:textSize="30sp" />
+
+</LinearLayout>
