@@ -8,3 +8,12 @@ dependencyResolutionManagement {
 }
 rootProject.name = "CalculatorApp"
 include ':app'
+include ':app:linearlayout'
+include ':app:orientation'
+include ':app:layoutgravity'
+include ':app:layoutgravity:111'
+include ':app:linearlayout2'
+include ':app:practice'
+include ':app:l1'
+include ':app:relativelayout'
+include ':app:p_l1'

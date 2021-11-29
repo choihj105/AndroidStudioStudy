@@ -11,6 +11,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/l1" />
+            <option value="$PROJECT_DIR$/app/layoutgravity" />
+            <option value="$PROJECT_DIR$/app/layoutgravity/111" />
+            <option value="$PROJECT_DIR$/app/linearlayout" />
+            <option value="$PROJECT_DIR$/app/linearlayout2" />
+            <option value="$PROJECT_DIR$/app/orientation" />
+            <option value="$PROJECT_DIR$/app/p_l1" />
+            <option value="$PROJECT_DIR$/app/practice" />
+            <option value="$PROJECT_DIR$/app/relativelayout" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
